@@ -6,12 +6,17 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ApCardComponent } from './ap-ui-utils/ap-card/ap-card.component';
 import { ApToolbarComponent } from './ap-features/ap-toolbar/ap-toolbar.component';
+import { ApHomeComponent } from './ap-ui/ap-home/ap-home.component';
+import { ApSiteSettingsComponent } from './ap-ui/ap-site-settings/ap-site-settings.component';
+import { Router } from "@angular/router";
 
 @NgModule({
   declarations: [
     AppComponent,
     ApCardComponent,
-    ApToolbarComponent
+    ApToolbarComponent,
+    ApHomeComponent,
+    ApSiteSettingsComponent
   ],
   imports: [
     BrowserModule,
@@ -21,4 +26,8 @@ import { ApToolbarComponent } from './ap-features/ap-toolbar/ap-toolbar.componen
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(router: Router) {}
+
+}
