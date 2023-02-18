@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BoxCardComponent } from './box-card.component';
+import { ApToolbarComponent } from './ap-toolbar.component';
 
-describe('BoxCardComponent', () => {
-  let component: BoxCardComponent;
-  let fixture: ComponentFixture<BoxCardComponent>;
+describe('ApToolbarComponent', () => {
+  let component: ApToolbarComponent;
+  let fixture: ComponentFixture<ApToolbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BoxCardComponent ]
+      declarations: [ ApToolbarComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BoxCardComponent);
+    fixture = TestBed.createComponent(ApToolbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

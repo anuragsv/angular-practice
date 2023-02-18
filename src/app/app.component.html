@@ -1,13 +1,19 @@
-<div class="root-wrapper">
+<div class="root-container">
     <div class="app-header">
-        <app-toolbar class="toolbar"></app-toolbar>
+        <ap-toolbar class="toolbar"></ap-toolbar>
     </div>
 
     <div class="app-body">
-        <box-card [template]="textHeader" class="box-card-wrapper">
+        <router-outlet class="box-card-wrapper"></router-outlet>
+        <ap-card [template]="textHeader">
             <ng-template #textHeader>
-                <p>This is a test bench for my Angular work where I practice and develop new ideas. I build custom UI components, REST applications, and abstract applications. According to Angular's documentation: "Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps."</p>
+                <p>This is a test bench for my Angular work where I practice and develop new ideas. I build custom
+                    UI components, REST applications, and abstract applications. According to Angular's
+                    documentation: "Angular is an application-design framework and development platform for creating
+                    efficient and sophisticated single-page apps."</p>
             </ng-template>
-        </box-card>
+        </ap-card>
+
+        <h2>Invert Colors</h2>
     </div>
 </div>

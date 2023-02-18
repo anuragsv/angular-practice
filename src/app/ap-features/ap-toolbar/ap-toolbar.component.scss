@@ -1,4 +1,4 @@
-.toolbar-wrapper {
+.ap-toolbar-wrapper {
     height: 64px;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.toolbar-col {
+.ap-toolbar-col {
     width: calc(33.33% - 5px);
     height: 100%;
     display: flex;
@@ -16,19 +16,19 @@
     gap: 15px;
 }
 
-.toolbar-align-left {
+.ap-toolbar-align-left {
     justify-content: flex-start;
 }
 
-.toolbar-align-center {
+.ap-toolbar-align-center {
     justify-content: center;
 }
 
-.toolbar-align-right {
+.ap-toolbar-align-right {
     justify-content: flex-end;
 }
 
-.toolbar-icon {
+.ap-toolbar-icon {
     margin: 0 -6px 0 -4px;
     font-family: "Material Symbols Outlined";
     font-size: 48px;
@@ -37,13 +37,13 @@
     color: #0554F2;
 }
 
-.toolbar-menu-icon {
+.ap-toolbar-menu-icon {
     transform: scale(1.5);
     // color: white;
     color: #0554F2;
 }
 
-.toolbar-title {
+.ap-toolbar-title {
     font-size: 32px;
     letter-spacing: 1px;
     // color: white;
