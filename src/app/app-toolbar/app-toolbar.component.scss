@@ -1,0 +1,47 @@
+.toolbar-wrapper {
+    height: 64px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolbar-col {
+    width: calc(33% - 25px);
+    height: calc(100% - 20px);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.toolbar-align-left {
+    justify-content: flex-start;
+}
+
+.toolbar-align-center {
+    justify-content: center;
+}
+
+.toolbar-align-right {
+    justify-content: flex-end;
+}
+
+.toolbar-icon {
+    transform: scale(2);
+    color: white;
+}
+
+.toolbar-menu-icon {
+    transform: scale(1.5);
+    color: white;
+}
+
+.toolbar-title {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: white;
+}

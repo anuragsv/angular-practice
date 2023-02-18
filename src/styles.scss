@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Mulish';
+}
+
+body {
+    margin: 0;
+    background-color: rgb(246, 248, 255, 1.0);
+}
+
+// addresses the background of the bar itself. It is usually covered by the other elements.
+::-webkit-scrollbar { }
+
+// addresses the directional buttons on the scrollbar
+::-webkit-scrollbar-button { }
+
+// addresses the empty space “below” the progress bar
+::-webkit-scrollbar-track { }
+
+// is the top-most layer of the the progress bar not covered by the draggable scrolling element (thumb)
+::-webkit-scrollbar-track-piece { }
+
+// addresses the draggable scrolling element that resizes depending on the size of the scrollable element
+::-webkit-scrollbar-thumb { }
+
+// addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet
+::-webkit-scrollbar-corner { }
+
+// addresses the draggable resizing handle that appears above the scrollbar-corner at the bottom corner of some elements
+::-webkit-resizer { }
