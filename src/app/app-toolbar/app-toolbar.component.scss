@@ -1,6 +1,5 @@
 .toolbar-wrapper {
     height: 64px;
-    background: transparent;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -9,9 +8,8 @@
 }
 
 .toolbar-col {
-    width: calc(33% - 25px);
-    height: calc(100% - 20px);
-    padding: 10px;
+    width: calc(33.33% - 5px);
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,17 +29,23 @@
 }
 
 .toolbar-icon {
-    transform: scale(2);
-    color: white;
+    margin: 0 -6px 0 -4px;
+    font-family: "Material Symbols Outlined";
+    font-size: 48px;
+    color: #0554F2;
+    // color: white;
+    color: #0554F2;
 }
 
 .toolbar-menu-icon {
     transform: scale(1.5);
-    color: white;
+    // color: white;
+    color: #0554F2;
 }
 
 .toolbar-title {
     font-size: 32px;
-    letter-spacing: 0.5px;
-    color: white;
+    letter-spacing: 1px;
+    // color: white;
+    color: #0554F2;
 }

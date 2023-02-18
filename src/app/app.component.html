@@ -4,8 +4,10 @@
     </div>
 
     <div class="app-body">
-        <p class="text-grey-theme">
-            This is a test bench for my angular work where I practice and develop new ideas.
-        </p>
+        <box-card [template]="textHeader" class="box-card-wrapper">
+            <ng-template #textHeader>
+                <p>This is a test bench for my Angular work where I practice and develop new ideas. I build custom UI components, REST applications, and abstract applications. According to Angular's documentation: "Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps."</p>
+            </ng-template>
+        </box-card>
     </div>
 </div>
