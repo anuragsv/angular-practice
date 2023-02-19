@@ -9,6 +9,7 @@ import { ApToolbarComponent } from './ap-features/ap-toolbar/ap-toolbar.componen
 import { ApHomeComponent } from './ap-ui/ap-home/ap-home.component';
 import { ApSiteSettingsComponent } from './ap-ui/ap-site-settings/ap-site-settings.component';
 import { Router } from "@angular/router";
+import { ApFlexGridCardsComponent } from './ap-ui/ap-flex-grid-cards/ap-flex-grid-cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Router } from "@angular/router";
     ApCardComponent,
     ApToolbarComponent,
     ApHomeComponent,
-    ApSiteSettingsComponent
+    ApSiteSettingsComponent,
+    ApFlexGridCardsComponent
   ],
   imports: [
     BrowserModule,

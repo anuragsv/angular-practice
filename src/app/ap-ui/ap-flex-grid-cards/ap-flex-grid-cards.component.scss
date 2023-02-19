@@ -1,0 +1,25 @@
+.ap-flex-grid-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.flex-grid-cards-content-card-wrapper {
+    max-height: fit-content;
+    min-width: fit-content;
+    flex: 0 1 100%;
+    // flex: 1 1 calc(33% - 5px);
+}
+
+.flex-grid-cards-md-content-card-wrapper {
+    min-height: 200px;
+    aspect-ratio: 4 / 1;
+    flex: 0 1 calc(2 * 100% / 3);
+}
+
+.flex-grid-cards-sm-content-card-wrapper {
+    min-height: 200px;
+    aspect-ratio: 2 / 1;
+    flex: 0 1 calc(100% / 3);
+}

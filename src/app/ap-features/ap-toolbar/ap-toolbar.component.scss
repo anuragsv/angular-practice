@@ -8,8 +8,8 @@
 }
 
 .ap-toolbar-col {
-    width: calc(33.33% - 5px);
     height: 100%;
+    width: calc((100% / 3) - 5px);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,19 +28,34 @@
     justify-content: flex-end;
 }
 
-.ap-toolbar-icon {
-    margin: 0 -6px 0 -4px;
+.ap-toolbar-link {
+    border-radius: 7px;
+    aspect-ratio: 1;
+    background-color: white;
+    text-decoration: none;
     font-family: "Material Symbols Outlined";
     font-size: 48px;
+    line-height: 48px;
     color: #0554F2;
-    // color: white;
-    color: #0554F2;
+    cursor: pointer;
 }
 
-.ap-toolbar-menu-icon {
-    transform: scale(1.5);
-    // color: white;
-    color: #0554F2;
+.ap-toolbar-link:hover {
+    background-color: #0554F21A;
+}
+
+.ap-toolbar-link:active {
+    background-color: #0000001A;
+}
+
+.ap-toolbar-home-link {
+    height: calc(100% - 13px);
+    padding: 3px 0.5px 2px 4.5px;
+}
+
+.ap-toolbar-menu-link {
+    height: calc(100% - 13px);
+    padding: 4px 1.5px 1px 3.5px;
 }
 
 .ap-toolbar-title {
