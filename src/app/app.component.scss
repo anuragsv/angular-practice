@@ -1,0 +1,52 @@
+.root-container {
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    // background-image: url("../assets/banner-background-with-abstract-connections-design/9996.jpg");
+    // background-size: contain;
+    // filter: invert(1);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-header {
+    height: 64px;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar {
+    width: calc(100% - 30px);
+    z-index: 4;
+    max-width: 1410px;
+    padding: 0 15px 0 15px;
+    opacity: 100%;
+}
+
+.app-body {
+    height: calc(100% - 64px);
+    width: 100%;
+    z-index: 1;
+    background-color: #FFFFFF80;
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.router-outlet-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px;
+    // background-color: #FFFFFFCC;
+    box-shadow: 0 0 4px 1px lightgrey;
+    border-radius: 0 0 5px 5px;
+}

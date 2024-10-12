@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+/** You can add global styles to this file, and also import other style files
+ * 100 %   FF
+ * 95 %    F2
+ * 90 %    E6
+ * 85 %    D9
+ * 80 %    CC
+ * 75 %    BF
+ * 70 %    B3
+ * 65 %    A6
+ * 60 %    99
+ * 55 %    8C
+ * 50 %    80
+ * 45 %    73
+ * 40 %    66
+ * 35 %    59
+ * 30 %    4D
+ * 25 %    40
+ * 20 %    33
+ * 15 %    26
+ * 10 %    1A
+ * 5 %     0D
+ * 0 %     00
+ */
+ @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+ @import url("https://fonts.googleapis.com/css?family=Mulish:100,200,300,400,500,600,700,800,900");
+ @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+ @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+ @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+ 
+ * {
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+ }
+ 
+ body {
+   margin: 0;
+   // background-color: rgb(246, 248, 255, 1.0);
+ }
+ 
+ .custom-scrollbar {
+   // addresses the background of the bar itself. It is usually covered by the other elements.
+   ::-webkit-scrollbar {}
+ 
+   // addresses the directional buttons on the scrollbar
+   ::-webkit-scrollbar-button {}
+ 
+   // addresses the empty space “below” the progress bar
+   ::-webkit-scrollbar-track {}
+ 
+   // is the top-most layer of the the progress bar not covered by the draggable scrolling element (thumb)
+   ::-webkit-scrollbar-track-piece {}
+ 
+   // addresses the draggable scrolling element that resizes depending on the size of the scrollable element
+   ::-webkit-scrollbar-thumb {}
+ 
+   // addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet
+   ::-webkit-scrollbar-corner {}
+ 
+   // addresses the draggable resizing handle that appears above the scrollbar-corner at the bottom corner of some elements
+   ::-webkit-resizer {}
+ }
+ 
